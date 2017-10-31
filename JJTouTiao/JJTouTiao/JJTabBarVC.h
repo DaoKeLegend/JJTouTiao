@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JJTabBarVC.h
 //  JJTouTiao
 //
 //  Created by lucy on 2017/10/31.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface JJTabBarVC : UITabBarController
 
 @end
-

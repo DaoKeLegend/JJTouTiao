@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+     仿今日头条框架搭建
+ */
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
 
 @end
 
