@@ -13,14 +13,18 @@
 		8D0AB2911FA8D240008063E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0AB2901FA8D240008063E5 /* main.m */; };
 		8D0AB2A41FA8D31E008063E5 /* JJTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0AB2A31FA8D31E008063E5 /* JJTabBarVC.m */; };
 		8D4B01781FB74303008A7A31 /* JJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B01771FB74303008A7A31 /* JJTabBar.m */; };
+		8D5690F11FB838C7003831AE /* JJSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5690F01FB838C7003831AE /* JJSearchBar.m */; };
 		8DBFE5C41FB7462400FC6793 /* JJNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFE5C31FB7462400FC6793 /* JJNavigationVC.m */; };
 		8DBFE5D71FB74A0400FC6793 /* JJHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFE5D61FB74A0400FC6793 /* JJHomeVC.m */; };
 		8DBFE5DA1FB74A1300FC6793 /* JJVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFE5D91FB74A1300FC6793 /* JJVideoVC.m */; };
 		8DBFE5DD1FB74A2C00FC6793 /* JJMicroTouTiaoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFE5DC1FB74A2C00FC6793 /* JJMicroTouTiaoVC.m */; };
 		8DBFE5E01FB74A4400FC6793 /* JJMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFE5DF1FB74A4400FC6793 /* JJMineVC.m */; };
+		DD4D3DE15431C0331BAC12BE /* Pods_JJTouTiao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC74F01F09579DF4A92EA8F5 /* Pods_JJTouTiao.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		122FF72C430269409CA032F6 /* Pods-JJTouTiao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJTouTiao.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJTouTiao/Pods-JJTouTiao.release.xcconfig"; sourceTree = "<group>"; };
+		47FD9C4587AF80A58F6A375F /* Pods-JJTouTiao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJTouTiao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJTouTiao/Pods-JJTouTiao.debug.xcconfig"; sourceTree = "<group>"; };
 		8D0AB27E1FA8D240008063E5 /* JJTouTiao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJTouTiao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D0AB2811FA8D240008063E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D0AB2821FA8D240008063E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -32,6 +36,9 @@
 		8D0AB2A31FA8D31E008063E5 /* JJTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTabBarVC.m; sourceTree = "<group>"; };
 		8D4B01761FB74303008A7A31 /* JJTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJTabBar.h; sourceTree = "<group>"; };
 		8D4B01771FB74303008A7A31 /* JJTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTabBar.m; sourceTree = "<group>"; };
+		8D5690EB1FB82477003831AE /* JJTouTiaoGlobal.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJTouTiaoGlobal.pch; sourceTree = "<group>"; };
+		8D5690EF1FB838C7003831AE /* JJSearchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJSearchBar.h; sourceTree = "<group>"; };
+		8D5690F01FB838C7003831AE /* JJSearchBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJSearchBar.m; sourceTree = "<group>"; };
 		8DBFE5C21FB7462400FC6793 /* JJNavigationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJNavigationVC.h; sourceTree = "<group>"; };
 		8DBFE5C31FB7462400FC6793 /* JJNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJNavigationVC.m; sourceTree = "<group>"; };
 		8DBFE5D51FB74A0400FC6793 /* JJHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJHomeVC.h; sourceTree = "<group>"; };
@@ -42,6 +49,7 @@
 		8DBFE5DC1FB74A2C00FC6793 /* JJMicroTouTiaoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJMicroTouTiaoVC.m; sourceTree = "<group>"; };
 		8DBFE5DE1FB74A4400FC6793 /* JJMineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJMineVC.h; sourceTree = "<group>"; };
 		8DBFE5DF1FB74A4400FC6793 /* JJMineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJMineVC.m; sourceTree = "<group>"; };
+		AC74F01F09579DF4A92EA8F5 /* Pods_JJTouTiao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJTouTiao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,17 +57,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD4D3DE15431C0331BAC12BE /* Pods_JJTouTiao.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18A064622CEDA062CAA9C57F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47FD9C4587AF80A58F6A375F /* Pods-JJTouTiao.debug.xcconfig */,
+				122FF72C430269409CA032F6 /* Pods-JJTouTiao.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D02B02B3909FAEEBC527DF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC74F01F09579DF4A92EA8F5 /* Pods_JJTouTiao.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8D0AB2751FA8D240008063E5 = {
 			isa = PBXGroup;
 			children = (
 				8D0AB2801FA8D240008063E5 /* JJTouTiao */,
 				8D0AB27F1FA8D240008063E5 /* Products */,
+				18A064622CEDA062CAA9C57F /* Pods */,
+				4D02B02B3909FAEEBC527DF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,15 +102,18 @@
 		8D0AB2801FA8D240008063E5 /* JJTouTiao */ = {
 			isa = PBXGroup;
 			children = (
-				8D0AB2811FA8D240008063E5 /* AppDelegate.h */,
-				8D0AB2821FA8D240008063E5 /* AppDelegate.m */,
 				8D4B01751FB742E0008A7A31 /* Main */,
 				8DBFE5D41FB749AD00FC6793 /* Home */,
 				8DBFE5D11FB749AD00FC6793 /* Video */,
 				8DBFE5D31FB749AD00FC6793 /* MicroTouTiao */,
 				8DBFE5D21FB749AD00FC6793 /* Mine */,
+				8D5690ED1FB838B2003831AE /* Base */,
+				8D5690EE1FB838B3003831AE /* Category */,
 				8D0AB28A1FA8D240008063E5 /* Assets.xcassets */,
 				8D0AB28C1FA8D240008063E5 /* LaunchScreen.storyboard */,
+				8D0AB2811FA8D240008063E5 /* AppDelegate.h */,
+				8D0AB2821FA8D240008063E5 /* AppDelegate.m */,
+				8D5690EB1FB82477003831AE /* JJTouTiaoGlobal.pch */,
 				8D0AB28F1FA8D240008063E5 /* Info.plist */,
 				8D0AB2901FA8D240008063E5 /* main.m */,
 			);
@@ -100,6 +131,22 @@
 				8D4B01771FB74303008A7A31 /* JJTabBar.m */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		8D5690ED1FB838B2003831AE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8D5690EF1FB838C7003831AE /* JJSearchBar.h */,
+				8D5690F01FB838C7003831AE /* JJSearchBar.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8D5690EE1FB838B3003831AE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		8DBFE5D11FB749AD00FC6793 /* Video */ = {
@@ -145,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D0AB2941FA8D240008063E5 /* Build configuration list for PBXNativeTarget "JJTouTiao" */;
 			buildPhases = (
+				729512D447AC7D4C157A8008 /* [CP] Check Pods Manifest.lock */,
 				8D0AB27A1FA8D240008063E5 /* Sources */,
 				8D0AB27B1FA8D240008063E5 /* Frameworks */,
 				8D0AB27C1FA8D240008063E5 /* Resources */,
+				614DBF1F7AC76573657623F7 /* [CP] Embed Pods Frameworks */,
+				11DBF1596FEE450897611EE3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -203,6 +253,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11DBF1596FEE450897611EE3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJTouTiao/Pods-JJTouTiao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		614DBF1F7AC76573657623F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJTouTiao/Pods-JJTouTiao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		729512D447AC7D4C157A8008 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8D0AB27A1FA8D240008063E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -211,6 +309,7 @@
 				8DBFE5C41FB7462400FC6793 /* JJNavigationVC.m in Sources */,
 				8DBFE5DD1FB74A2C00FC6793 /* JJMicroTouTiaoVC.m in Sources */,
 				8DBFE5E01FB74A4400FC6793 /* JJMineVC.m in Sources */,
+				8D5690F11FB838C7003831AE /* JJSearchBar.m in Sources */,
 				8DBFE5D71FB74A0400FC6793 /* JJHomeVC.m in Sources */,
 				8D0AB2A41FA8D31E008063E5 /* JJTabBarVC.m in Sources */,
 				8DBFE5DA1FB74A1300FC6793 /* JJVideoVC.m in Sources */,
@@ -272,6 +371,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = JJTouTiao/JJTouTiaoGlobal.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -282,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -325,13 +425,14 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = JJTouTiao/JJTouTiaoGlobal.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -340,6 +441,7 @@
 		};
 		8D0AB2951FA8D240008063E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47FD9C4587AF80A58F6A375F /* Pods-JJTouTiao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -354,6 +456,7 @@
 		};
 		8D0AB2961FA8D240008063E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 122FF72C430269409CA032F6 /* Pods-JJTouTiao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

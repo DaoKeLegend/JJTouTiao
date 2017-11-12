@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+typedef NS_ENUM(NSUInteger, JJNavigationVCBarStyle) {
+    JJNavigationVCBarStyleHome,
+    JJNavigationVCBarStyleVideo,
+    JJNavigationVCBarStyleMicro,
+    JJNavigationVCBarStyleMine
+};
+
 @interface JJNavigationVC : UINavigationController
 
+@property (nonatomic, assign) JJNavigationVCBarStyle style;
+
 @end
+

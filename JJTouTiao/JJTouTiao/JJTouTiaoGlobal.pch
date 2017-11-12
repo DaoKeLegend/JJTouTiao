@@ -1,0 +1,33 @@
+//
+//  JJTouTiaoGlobal.pch
+//  JJTouTiao
+//
+//  Created by lucy on 2017/11/12.
+//  Copyright © 2017年 com.daoKeLegend. All rights reserved.
+//
+
+#ifndef JJTouTiaoGlobal_pch
+#define JJTouTiaoGlobal_pch
+
+/**
+     头文件
+ */
+
+#import "Masonry.h"
+
+/**
+     宏定义
+ */
+
+#define kScreenRect         [UIScreen mainScreen].bounds
+#define kScreenSize         [UIScreen mainScreen].bounds.size
+#define kScreenWidth        [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight       [UIScreen mainScreen].bounds.size.height
+
+#endif
+
+
+
+
+
+
