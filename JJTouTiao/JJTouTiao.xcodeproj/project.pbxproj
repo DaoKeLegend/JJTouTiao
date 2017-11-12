@@ -12,6 +12,12 @@
 		8D0AB28E1FA8D240008063E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0AB28C1FA8D240008063E5 /* LaunchScreen.storyboard */; };
 		8D0AB2911FA8D240008063E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0AB2901FA8D240008063E5 /* main.m */; };
 		8D0AB2A41FA8D31E008063E5 /* JJTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0AB2A31FA8D31E008063E5 /* JJTabBarVC.m */; };
+		8D4B01781FB74303008A7A31 /* JJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B01771FB74303008A7A31 /* JJTabBar.m */; };
+		8DBFE5C41FB7462400FC6793 /* JJNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFE5C31FB7462400FC6793 /* JJNavigationVC.m */; };
+		8DBFE5D71FB74A0400FC6793 /* JJHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFE5D61FB74A0400FC6793 /* JJHomeVC.m */; };
+		8DBFE5DA1FB74A1300FC6793 /* JJVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFE5D91FB74A1300FC6793 /* JJVideoVC.m */; };
+		8DBFE5DD1FB74A2C00FC6793 /* JJMicroTouTiaoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFE5DC1FB74A2C00FC6793 /* JJMicroTouTiaoVC.m */; };
+		8DBFE5E01FB74A4400FC6793 /* JJMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFE5DF1FB74A4400FC6793 /* JJMineVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,18 @@
 		8D0AB2901FA8D240008063E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D0AB2A21FA8D31E008063E5 /* JJTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJTabBarVC.h; sourceTree = "<group>"; };
 		8D0AB2A31FA8D31E008063E5 /* JJTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTabBarVC.m; sourceTree = "<group>"; };
+		8D4B01761FB74303008A7A31 /* JJTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJTabBar.h; sourceTree = "<group>"; };
+		8D4B01771FB74303008A7A31 /* JJTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTabBar.m; sourceTree = "<group>"; };
+		8DBFE5C21FB7462400FC6793 /* JJNavigationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJNavigationVC.h; sourceTree = "<group>"; };
+		8DBFE5C31FB7462400FC6793 /* JJNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJNavigationVC.m; sourceTree = "<group>"; };
+		8DBFE5D51FB74A0400FC6793 /* JJHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJHomeVC.h; sourceTree = "<group>"; };
+		8DBFE5D61FB74A0400FC6793 /* JJHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJHomeVC.m; sourceTree = "<group>"; };
+		8DBFE5D81FB74A1300FC6793 /* JJVideoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJVideoVC.h; sourceTree = "<group>"; };
+		8DBFE5D91FB74A1300FC6793 /* JJVideoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJVideoVC.m; sourceTree = "<group>"; };
+		8DBFE5DB1FB74A2C00FC6793 /* JJMicroTouTiaoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJMicroTouTiaoVC.h; sourceTree = "<group>"; };
+		8DBFE5DC1FB74A2C00FC6793 /* JJMicroTouTiaoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJMicroTouTiaoVC.m; sourceTree = "<group>"; };
+		8DBFE5DE1FB74A4400FC6793 /* JJMineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJMineVC.h; sourceTree = "<group>"; };
+		8DBFE5DF1FB74A4400FC6793 /* JJMineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJMineVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +76,66 @@
 			children = (
 				8D0AB2811FA8D240008063E5 /* AppDelegate.h */,
 				8D0AB2821FA8D240008063E5 /* AppDelegate.m */,
-				8D0AB2A21FA8D31E008063E5 /* JJTabBarVC.h */,
-				8D0AB2A31FA8D31E008063E5 /* JJTabBarVC.m */,
+				8D4B01751FB742E0008A7A31 /* Main */,
+				8DBFE5D41FB749AD00FC6793 /* Home */,
+				8DBFE5D11FB749AD00FC6793 /* Video */,
+				8DBFE5D31FB749AD00FC6793 /* MicroTouTiao */,
+				8DBFE5D21FB749AD00FC6793 /* Mine */,
 				8D0AB28A1FA8D240008063E5 /* Assets.xcassets */,
 				8D0AB28C1FA8D240008063E5 /* LaunchScreen.storyboard */,
 				8D0AB28F1FA8D240008063E5 /* Info.plist */,
 				8D0AB2901FA8D240008063E5 /* main.m */,
 			);
 			path = JJTouTiao;
+			sourceTree = "<group>";
+		};
+		8D4B01751FB742E0008A7A31 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8D0AB2A21FA8D31E008063E5 /* JJTabBarVC.h */,
+				8D0AB2A31FA8D31E008063E5 /* JJTabBarVC.m */,
+				8DBFE5C21FB7462400FC6793 /* JJNavigationVC.h */,
+				8DBFE5C31FB7462400FC6793 /* JJNavigationVC.m */,
+				8D4B01761FB74303008A7A31 /* JJTabBar.h */,
+				8D4B01771FB74303008A7A31 /* JJTabBar.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8DBFE5D11FB749AD00FC6793 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				8DBFE5D81FB74A1300FC6793 /* JJVideoVC.h */,
+				8DBFE5D91FB74A1300FC6793 /* JJVideoVC.m */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		8DBFE5D21FB749AD00FC6793 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				8DBFE5DE1FB74A4400FC6793 /* JJMineVC.h */,
+				8DBFE5DF1FB74A4400FC6793 /* JJMineVC.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		8DBFE5D31FB749AD00FC6793 /* MicroTouTiao */ = {
+			isa = PBXGroup;
+			children = (
+				8DBFE5DB1FB74A2C00FC6793 /* JJMicroTouTiaoVC.h */,
+				8DBFE5DC1FB74A2C00FC6793 /* JJMicroTouTiaoVC.m */,
+			);
+			path = MicroTouTiao;
+			sourceTree = "<group>";
+		};
+		8DBFE5D41FB749AD00FC6793 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8DBFE5D51FB74A0400FC6793 /* JJHomeVC.h */,
+				8DBFE5D61FB74A0400FC6793 /* JJHomeVC.m */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +208,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DBFE5C41FB7462400FC6793 /* JJNavigationVC.m in Sources */,
+				8DBFE5DD1FB74A2C00FC6793 /* JJMicroTouTiaoVC.m in Sources */,
+				8DBFE5E01FB74A4400FC6793 /* JJMineVC.m in Sources */,
+				8DBFE5D71FB74A0400FC6793 /* JJHomeVC.m in Sources */,
 				8D0AB2A41FA8D31E008063E5 /* JJTabBarVC.m in Sources */,
+				8DBFE5DA1FB74A1300FC6793 /* JJVideoVC.m in Sources */,
+				8D4B01781FB74303008A7A31 /* JJTabBar.m in Sources */,
 				8D0AB2911FA8D240008063E5 /* main.m in Sources */,
 				8D0AB2831FA8D240008063E5 /* AppDelegate.m in Sources */,
 			);

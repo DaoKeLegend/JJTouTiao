@@ -1,23 +1,25 @@
 //
-//  JJTabBarVC.m
+//  JJHomeVC.m
 //  JJTouTiao
 //
-//  Created by lucy on 2017/10/31.
+//  Created by lucy on 2017/11/11.
 //  Copyright © 2017年 com.daoKeLegend. All rights reserved.
 //
 
-#import "JJTabBarVC.h"
+#import "JJHomeVC.h"
 
-@interface JJTabBarVC ()
+@interface JJHomeVC ()
 
 @end
 
-@implementation JJTabBarVC
+@implementation JJHomeVC
+
+#pragma mark - Override Base Function
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+   
     self.view.backgroundColor = [UIColor redColor];
 }
 
