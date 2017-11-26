@@ -14,11 +14,18 @@
 		8D0AB2A41FA8D31E008063E5 /* JJTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0AB2A31FA8D31E008063E5 /* JJTabBarVC.m */; };
 		8D4B01781FB74303008A7A31 /* JJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B01771FB74303008A7A31 /* JJTabBar.m */; };
 		8D5690F11FB838C7003831AE /* JJSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5690F01FB838C7003831AE /* JJSearchBar.m */; };
+		8D9439961FC717BA0066A748 /* JJLIveBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9439951FC717BA0066A748 /* JJLIveBaseVC.m */; };
+		8D9439991FC717CF0066A748 /* JJRecommandVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9439981FC717CF0066A748 /* JJRecommandVC.m */; };
+		8D94399C1FC717F50066A748 /* JJHotVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D94399B1FC717F50066A748 /* JJHotVC.m */; };
+		8D94399F1FC718030066A748 /* JJOtherVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D94399E1FC718030066A748 /* JJOtherVC.m */; };
 		8DBFE5C41FB7462400FC6793 /* JJNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFE5C31FB7462400FC6793 /* JJNavigationVC.m */; };
 		8DBFE5D71FB74A0400FC6793 /* JJHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFE5D61FB74A0400FC6793 /* JJHomeVC.m */; };
 		8DBFE5DA1FB74A1300FC6793 /* JJVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFE5D91FB74A1300FC6793 /* JJVideoVC.m */; };
 		8DBFE5DD1FB74A2C00FC6793 /* JJMicroTouTiaoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFE5DC1FB74A2C00FC6793 /* JJMicroTouTiaoVC.m */; };
 		8DBFE5E01FB74A4400FC6793 /* JJMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFE5DF1FB74A4400FC6793 /* JJMineVC.m */; };
+		8DD9A3EA1FC1A46A00636110 /* JJSegementView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD9A3E91FC1A46A00636110 /* JJSegementView.m */; };
+		8DD9A3F01FC1ADFA00636110 /* UIColor+UIColorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD9A3EF1FC1ADFA00636110 /* UIColor+UIColorTool.m */; };
+		8DD9A3F61FC1B53800636110 /* UIView+UIViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD9A3F51FC1B53800636110 /* UIView+UIViewTool.m */; };
 		DD4D3DE15431C0331BAC12BE /* Pods_JJTouTiao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC74F01F09579DF4A92EA8F5 /* Pods_JJTouTiao.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +46,15 @@
 		8D5690EB1FB82477003831AE /* JJTouTiaoGlobal.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJTouTiaoGlobal.pch; sourceTree = "<group>"; };
 		8D5690EF1FB838C7003831AE /* JJSearchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJSearchBar.h; sourceTree = "<group>"; };
 		8D5690F01FB838C7003831AE /* JJSearchBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJSearchBar.m; sourceTree = "<group>"; };
+		8D9439941FC717BA0066A748 /* JJLIveBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJLIveBaseVC.h; sourceTree = "<group>"; };
+		8D9439951FC717BA0066A748 /* JJLIveBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJLIveBaseVC.m; sourceTree = "<group>"; };
+		8D9439971FC717CF0066A748 /* JJRecommandVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJRecommandVC.h; sourceTree = "<group>"; };
+		8D9439981FC717CF0066A748 /* JJRecommandVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJRecommandVC.m; sourceTree = "<group>"; };
+		8D94399A1FC717F50066A748 /* JJHotVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJHotVC.h; sourceTree = "<group>"; };
+		8D94399B1FC717F50066A748 /* JJHotVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJHotVC.m; sourceTree = "<group>"; };
+		8D94399D1FC718030066A748 /* JJOtherVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJOtherVC.h; sourceTree = "<group>"; };
+		8D94399E1FC718030066A748 /* JJOtherVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJOtherVC.m; sourceTree = "<group>"; };
+		8D9439A01FC71AE10066A748 /* JJLiveBaseProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJLiveBaseProtocol.h; sourceTree = "<group>"; };
 		8DBFE5C21FB7462400FC6793 /* JJNavigationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJNavigationVC.h; sourceTree = "<group>"; };
 		8DBFE5C31FB7462400FC6793 /* JJNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJNavigationVC.m; sourceTree = "<group>"; };
 		8DBFE5D51FB74A0400FC6793 /* JJHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJHomeVC.h; sourceTree = "<group>"; };
@@ -49,6 +65,12 @@
 		8DBFE5DC1FB74A2C00FC6793 /* JJMicroTouTiaoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJMicroTouTiaoVC.m; sourceTree = "<group>"; };
 		8DBFE5DE1FB74A4400FC6793 /* JJMineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJMineVC.h; sourceTree = "<group>"; };
 		8DBFE5DF1FB74A4400FC6793 /* JJMineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJMineVC.m; sourceTree = "<group>"; };
+		8DD9A3E81FC1A46A00636110 /* JJSegementView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJSegementView.h; sourceTree = "<group>"; };
+		8DD9A3E91FC1A46A00636110 /* JJSegementView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJSegementView.m; sourceTree = "<group>"; };
+		8DD9A3EE1FC1ADFA00636110 /* UIColor+UIColorTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+UIColorTool.h"; sourceTree = "<group>"; };
+		8DD9A3EF1FC1ADFA00636110 /* UIColor+UIColorTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+UIColorTool.m"; sourceTree = "<group>"; };
+		8DD9A3F41FC1B53800636110 /* UIView+UIViewTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+UIViewTool.h"; sourceTree = "<group>"; };
+		8DD9A3F51FC1B53800636110 /* UIView+UIViewTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIViewTool.m"; sourceTree = "<group>"; };
 		AC74F01F09579DF4A92EA8F5 /* Pods_JJTouTiao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJTouTiao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -145,6 +167,10 @@
 		8D5690EE1FB838B3003831AE /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				8DD9A3EE1FC1ADFA00636110 /* UIColor+UIColorTool.h */,
+				8DD9A3EF1FC1ADFA00636110 /* UIColor+UIColorTool.m */,
+				8DD9A3F41FC1B53800636110 /* UIView+UIViewTool.h */,
+				8DD9A3F51FC1B53800636110 /* UIView+UIViewTool.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -181,6 +207,17 @@
 			children = (
 				8DBFE5D51FB74A0400FC6793 /* JJHomeVC.h */,
 				8DBFE5D61FB74A0400FC6793 /* JJHomeVC.m */,
+				8D9439941FC717BA0066A748 /* JJLIveBaseVC.h */,
+				8D9439951FC717BA0066A748 /* JJLIveBaseVC.m */,
+				8D9439A01FC71AE10066A748 /* JJLiveBaseProtocol.h */,
+				8D9439971FC717CF0066A748 /* JJRecommandVC.h */,
+				8D9439981FC717CF0066A748 /* JJRecommandVC.m */,
+				8D94399A1FC717F50066A748 /* JJHotVC.h */,
+				8D94399B1FC717F50066A748 /* JJHotVC.m */,
+				8D94399D1FC718030066A748 /* JJOtherVC.h */,
+				8D94399E1FC718030066A748 /* JJOtherVC.m */,
+				8DD9A3E81FC1A46A00636110 /* JJSegementView.h */,
+				8DD9A3E91FC1A46A00636110 /* JJSegementView.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -307,15 +344,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DBFE5C41FB7462400FC6793 /* JJNavigationVC.m in Sources */,
+				8D9439961FC717BA0066A748 /* JJLIveBaseVC.m in Sources */,
+				8D94399C1FC717F50066A748 /* JJHotVC.m in Sources */,
 				8DBFE5DD1FB74A2C00FC6793 /* JJMicroTouTiaoVC.m in Sources */,
+				8DD9A3F61FC1B53800636110 /* UIView+UIViewTool.m in Sources */,
 				8DBFE5E01FB74A4400FC6793 /* JJMineVC.m in Sources */,
 				8D5690F11FB838C7003831AE /* JJSearchBar.m in Sources */,
 				8DBFE5D71FB74A0400FC6793 /* JJHomeVC.m in Sources */,
 				8D0AB2A41FA8D31E008063E5 /* JJTabBarVC.m in Sources */,
+				8DD9A3EA1FC1A46A00636110 /* JJSegementView.m in Sources */,
 				8DBFE5DA1FB74A1300FC6793 /* JJVideoVC.m in Sources */,
+				8D94399F1FC718030066A748 /* JJOtherVC.m in Sources */,
 				8D4B01781FB74303008A7A31 /* JJTabBar.m in Sources */,
+				8DD9A3F01FC1ADFA00636110 /* UIColor+UIColorTool.m in Sources */,
 				8D0AB2911FA8D240008063E5 /* main.m in Sources */,
 				8D0AB2831FA8D240008063E5 /* AppDelegate.m in Sources */,
+				8D9439991FC717CF0066A748 /* JJRecommandVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
